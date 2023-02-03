@@ -1,4 +1,6 @@
-﻿@{
+﻿@model DeveloperBlog.Core.ViewModels.IndexViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -7,3 +9,12 @@
     <p>Official developer blog for the not yet announced, not so very AAA title Father Needs a Sandwich.</p>
 </div>
 
+@if (Model.AllPosts != null)
+{
+    @foreach (var post in Model.AllPosts)
+    {
+        <h3>@post.Title</h3>
+        <p>@post.ContentShort</p>
+    }
+}
+</div>

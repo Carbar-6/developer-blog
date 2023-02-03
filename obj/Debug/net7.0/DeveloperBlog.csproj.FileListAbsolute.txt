@@ -34,3 +34,5 @@
 /Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/obj/Debug/net7.0/DeveloperBlog.pdb
 /Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/obj/Debug/net7.0/DeveloperBlog.genruntimeconfig.cache
 /Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/obj/Debug/net7.0/ref/DeveloperBlog.dll
+/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
