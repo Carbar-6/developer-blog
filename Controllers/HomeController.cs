@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using DeveloperBlog.Models;
 using DeveloperBlog.Core.ViewModels;
 using DeveloperBlog.Core;
+using DeveloperBlog.Data;
 
 namespace DeveloperBlog.Controllers;
 

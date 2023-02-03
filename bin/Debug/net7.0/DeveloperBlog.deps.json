@@ -82,6 +82,7 @@
       },
       "DeveloperBlog.Data/1.0.0": {
         "dependencies": {
+          "DeveloperBlog.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2"
         },
         "runtime": {
