@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "DeveloperBlog/1.0.0": {
+        "dependencies": {
+          "DeveloperBlog.Core": "1.0.0",
+          "DeveloperBlog.Data": "1.0.0"
+        },
+        "runtime": {
+          "DeveloperBlog.dll": {}
+        }
+      },
+      "DeveloperBlog.Core/1.0.0": {
+        "runtime": {
+          "DeveloperBlog.Core.dll": {}
+        }
+      },
+      "DeveloperBlog.Data/1.0.0": {
+        "runtime": {
+          "DeveloperBlog.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DeveloperBlog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeveloperBlog.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DeveloperBlog.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

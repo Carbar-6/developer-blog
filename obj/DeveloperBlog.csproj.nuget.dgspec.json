@@ -4,6 +4,112 @@
     "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/DeveloperBlog.csproj": {}
   },
   "projects": {
+    "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj",
+        "projectName": "DeveloperBlog.Core",
+        "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj",
+        "packagesPath": "/Users/carlbrannstrom/.nuget/packages/",
+        "outputPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlbrannstrom/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj",
+        "projectName": "DeveloperBlog.Data",
+        "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj",
+        "packagesPath": "/Users/carlbrannstrom/.nuget/packages/",
+        "outputPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlbrannstrom/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog/DeveloperBlog.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +131,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj": {
+                "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj"
+              },
+              "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj": {
+                "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

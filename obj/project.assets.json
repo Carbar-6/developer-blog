@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "DeveloperBlog.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DeveloperBlog.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeveloperBlog.Core.dll": {}
+        }
+      },
+      "DeveloperBlog.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DeveloperBlog.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeveloperBlog.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DeveloperBlog.Core/1.0.0": {
+      "type": "project",
+      "path": "../DeveloperBlog.Core/DeveloperBlog.Core.csproj",
+      "msbuildProject": "../DeveloperBlog.Core/DeveloperBlog.Core.csproj"
+    },
+    "DeveloperBlog.Data/1.0.0": {
+      "type": "project",
+      "path": "../DeveloperBlog.Data/DeveloperBlog.Data.csproj",
+      "msbuildProject": "../DeveloperBlog.Data/DeveloperBlog.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "DeveloperBlog.Core >= 1.0.0",
+      "DeveloperBlog.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/carlbrannstrom/.nuget/packages/": {}
@@ -31,7 +66,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj": {
+              "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Core/DeveloperBlog.Core.csproj"
+            },
+            "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj": {
+              "projectPath": "/Users/carlbrannstrom/Projects/DeveloperBlog/DeveloperBlog.Data/DeveloperBlog.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
